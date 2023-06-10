@@ -374,8 +374,8 @@
         <div class="container-9">
             
             <div>
-                <div class="background-image"></div>
-                <img src="images/posbytz_signup_free.svg" alt="">
+                
+                 <img  id="scroll-to-top" src="images/posbytz_signup_free.svg" alt="">
                 <h2>Start selling online for free</h2>
                 <p>A better experience for your customers, fewer headaches for your team. You will be set up in minutes.</p>
                 <button>Sign up for free</button>
@@ -443,14 +443,15 @@
     </section>
 
     <script>
-        window.addEventListener('scroll', function() {
-          var header = document.getElementById('header');
-          if (window.pageYOffset > 0) {
-            header.classList.add('scrolled');
-          } else {
-            header.classList.remove('scrolled');
-          }
-        });
+       const scrollToTopImage = document.getElementById('scroll-to-top');
+
+scrollToTopImage.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+
       </script>
 
 </body>

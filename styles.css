@@ -991,6 +991,10 @@ h1{
         display: contents;
     }
 
+    .hide-img img{
+        margin-left: 10px;
+    }
+
     .integration-contents-grid .hide-img{
         visibility:visible;
     }
@@ -1159,6 +1163,8 @@ h1{
     border-radius: 50px;
     margin-top: 20px;
 }
+
+
 
 @media (max-width:1020px){
     #section-9{
