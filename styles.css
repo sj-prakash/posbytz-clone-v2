@@ -992,7 +992,7 @@ h1{
     }
 
     .hide-img img{
-        margin-left: 10px;
+        margin-left: 17px;
     }
 
     .integration-contents-grid .hide-img{
@@ -1105,6 +1105,10 @@ h1{
     }
     .row{
         flex-direction: column;
+    }
+
+    .right-feedback-contents{
+        display: none;
     }
 
     .container-8{
